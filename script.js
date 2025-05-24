@@ -19,21 +19,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            title: 'Premium Notebook Set',
+            title: 'Premium Notebook Set111',
             price: 150,
             image: 'products/img1.jpg',
             category: 'stationery'
         },
         {
             id: 2,
-            title: 'Elegant Pen Set',
+            title: 'Elegant Pen Set1111',
             price: 220,
             image: 'products/img2.jpg',
             category: 'stationery'
         },
         {
             id: 3,
-            title: 'Leather Desk Organizer',
+            title: 'Leather Desk Organizer22',
             price: 210,
             image: 'products/img3.jpg',
             category: 'office'
