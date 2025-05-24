@@ -90,6 +90,7 @@ a {
     text-align: center;
     position: relative;
     padding-bottom: 10px;
+     color: #4a6fa5;
 }
 
 .section-title::after {
@@ -690,6 +691,7 @@ a {
     
     .section-title {
         font-size: 1.8rem;
+        color: #4a6fa5;
     }
     
     .product-grid {

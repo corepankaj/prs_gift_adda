@@ -19,140 +19,140 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            title: 'Premium Notebook Set',
+            title: '10 in one game',
             price: 150,
             image: 'products/img1.jpg',
             category: 'stationery'
         },
         {
             id: 2,
-            title: 'Elegant Pen Set',
+            title: 'Avengers 4',
             price: 220,
             image: 'products/img2.jpg',
             category: 'stationery'
         },
         {
             id: 3,
-            title: 'Leather Desk Organizer',
+            title: 'Doll',
             price: 210,
             image: 'products/img3.jpg',
             category: 'office'
         },
         {
             id: 4,
-            title: 'Gift Box Collection',
+            title: 'Doll',
             price: 210,
             image: 'products/img4.jpg',
             category: 'gifts'
         },
         {
             id: 5,
-            title: 'Wooden Stationery Holder',
+            title: 'Game of Marbles',
             price: 170,
             image: 'products/img5.jpg',
             category: 'office'
         },
         {
             id: 6,
-            title: 'Personalized Gift Set',
+            title: 'Water magic book',
             price: 75,
             image: 'products/img6.jpg',
             category: 'gifts'
         },
         {
             id: 7,
-            title: 'Sticky Notes Pack',
+            title: 'Roll Ball Tower',
             price: 345,
             image: 'products/img7.jpg',
             category: 'stationery'
         },
         {
             id: 8,
-            title: 'Executive Desk Set',
+            title: 'Water magic book',
             price: 75,
             image: 'products/img8.jpg',
             category: 'office'
         },
         {
             id: 9,
-            title: 'Executive Desk Set',
+            title: 'Water magic book',
             price: 75,
             image: 'products/img9.jpg',
             category: 'office'
         },
         {
             id: 10,
-            title: 'Executive Desk Set',
+            title: 'Peppa Pig Puzzle',
             price: 150,
             image: 'products/img10.jpg',
             category: 'office'
         },
         {
             id: 11,
-            title: 'Executive Desk Set',
+            title: 'Doraemon Puzzle',
             price: 150,
             image: 'products/img11.jpg',
             category: 'office'
         },
         {
             id: 12,
-            title: 'Executive Desk Set',
+            title: 'Doll',
             price: 210,
             image: 'products/img12.jpg',
             category: 'office'
         },
         {
             id: 13,
-            title: 'Executive Desk Set',
+            title: 'Barbie Puzzle',
             price: 150,
             image: 'products/img13.jpg',
             category: 'office'
         },
         {
             id: 14,
-            title: 'Executive Desk Set',
+            title: 'Ramp Racing',
             price: 400,
             image: 'products/img14.jpg',
             category: 'office'
         },
         {
             id: 15,
-            title: 'Executive Desk Set',
+            title: 'Avengers Puzzle',
             price: 150,
             image: 'products/img15.jpg',
             category: 'office'
         },
         {
             id: 16,
-            title: 'Executive Desk Set',
+            title: 'Avengers Puzzle',
             price: 150,
             image: 'products/img16.jpg',
             category: 'office'
         },
         {
             id: 17,
-            title: 'Executive Desk Set',
+            title: 'Pencil Box Case',
             price: 200,
             image: 'products/img17.jpg',
             category: 'office'
         },
         {
             id: 18,
-            title: 'Executive Desk Set',
+            title: 'Pencil Box Case',
             price: 200,
             image: 'products/img18.jpg',
             category: 'office'
         },
         {
             id: 19,
-            title: 'Executive Desk Set',
+            title: 'Pencil Box Case',
             price: 200,
             image: 'products/img19.jpg',
             category: 'office'
         },
         {
             id: 20,
-            title: 'Executive Desk Set',
+            title: 'Pencil Box Case',
             price: 200,
             image: 'products/img20.jpg',
             category: 'office'
