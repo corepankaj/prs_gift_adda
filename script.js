@@ -19,21 +19,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            title: 'Premium Notebook Set111',
+            title: 'Premium Notebook Set',
             price: 150,
             image: 'products/img1.jpg',
             category: 'stationery'
         },
         {
             id: 2,
-            title: 'Elegant Pen Set1111',
+            title: 'Elegant Pen Set',
             price: 220,
             image: 'products/img2.jpg',
             category: 'stationery'
         },
         {
             id: 3,
-            title: 'Leather Desk Organizer22',
+            title: 'Leather Desk Organizer',
             price: 210,
             image: 'products/img3.jpg',
             category: 'office'
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
             productCard.innerHTML = `
                 <img src="${product.image}" alt="${product.title}" class="product-img">
                 <div class="product-info">
-                    <h3 class="product-title">${product.title}</h3>
+                    <p class="product-title">${product.title}</p>
                     <p class="product-price">₹${product.price.toFixed(2)}</p>
                     <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
                 </div>
