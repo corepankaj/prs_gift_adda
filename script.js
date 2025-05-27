@@ -271,8 +271,9 @@ document.getElementById('checkoutButton').addEventListener('click', function () 
 
     cart.forEach(item => {
     message += `• ${item.title} - ₹${item.price} x ${item.quantity} = ₹${item.price * item.quantity}%0A`;
-    message += `🖼️ Image: ${item.image}%0A`; // Add this line to include image URL
-   });
+    message += `📷 View Image: ${encodeURIComponent(item.image)}%0A`;
+});
+
 
 
     const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
