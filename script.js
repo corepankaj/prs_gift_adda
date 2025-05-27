@@ -576,6 +576,13 @@ document.addEventListener('DOMContentLoaded', function() {
             price: 30,
             image: 'products/brithday/IMG_1581.JPG',
             category: 'brithday'
+        },
+        {
+            id: 76,
+            title: 'Birthday Gift',
+            price: 30,
+            image: 'products/brithday/IMG_1509.JPG',
+            category: 'brithday'
         }
         
     ];
