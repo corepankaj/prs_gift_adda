@@ -21,35 +21,35 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             title: '10 in one game',
             price: 150,
-            image: 'products/img1.jpg',
+            image: 'https://www.prsgiftadda.shop/products/img1.jpg',
             category: 'gifts'
         },
         {
             id: 2,
             title: 'Avengers 4',
             price: 220,
-            image: 'products/img2.jpg',
+            image: 'https://www.prsgiftadda.shop/products/img2.jpg',
             category: 'gifts'
         },
         {
             id: 3,
             title: 'Doll',
             price: 210,
-            image: 'products/img3.jpg',
+            image: 'https://www.prsgiftadda.shop/products/img3.jpg',
             category: 'gifts'
         },
         {
             id: 4,
             title: 'Doll',
             price: 210,
-            image: 'products/img4.jpg',
+            image: 'https://www.prsgiftadda.shop/products/img4.jpg',
             category: 'gifts'
         },
         {
             id: 5,
             title: 'Game of Marbles',
             price: 170,
-            image: 'products/img5.jpg',
+            image: 'https://www.prsgiftadda.shop/products/img5.jpg',
             category: 'office'
         }
         
