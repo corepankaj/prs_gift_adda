@@ -553,7 +553,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 74,
             title: 'Birthday Gift',
             price: 160,
-            image: 'products/brithday/IMG_1539.jpg',
+            image: 'products/brithday/IMG_1539.JPG',
             category: 'brithday'
         },
         {
