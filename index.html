@@ -1,205 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRS GIFT ADDA - Premium Gift & stationery</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRS Gift Adda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+    }
+    .product img {
+      height: 80px;
+      margin-right: 15px;
+    }
+    #cart {
+      margin-top: 20px;
+      border-top: 2px solid #000;
+      padding-top: 10px;
+    }
+    #checkout {
+      margin-top: 20px;
+    }
+    input[type="text"] {
+      padding: 8px;
+      margin-top: 10px;
+      width: 100%;
+    }
+    button {
+      padding: 10px 15px;
+      margin-top: 10px;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <a href="#">
-                        <i class="fas fa-gift logo-icon"></i>
-                        <span style="font-size: 30px;"><span style="color:#3898ec;">PRS</span> <span style="color: maroon;">Gift</span> <span style="color: rgb(152, 152, 8);">Adda</span></span>
-                    </a>
-                </div>
-                
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="#" class="nav-link active">Home</a></li>
-                        <li><a href="#products" class="nav-link">Products</a></li>
-                        <li><a href="#about" class="nav-link">About</a></li>
-                        <li><a href="#contact" class="nav-link">Contact</a></li>
-                    </ul>
-                </nav>
-                
-                <div class="header-actions">
-                    <button class="cart-btn" id="cart-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-count">0</span>
-                    </button>
-                    <button class="mobile-menu-btn" id="mobile-menu-btn">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobile-menu">
-        <ul class="mobile-nav-list">
-            <li><a href="#" class="mobile-nav-link active">Home</a></li>
-            <li><a href="#products" class="mobile-nav-link">Products</a></li>
-            <li><a href="#about" class="mobile-nav-link">About</a></li>
-            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
-        </ul>
+  <h1>PRS Gift Adda</h1>
+
+  <div class="product">
+    <img src="https://www.prsgiftadda.shop/products/Stationery/IMG_1579.JPG" alt="Slime">
+    <div>
+      <h3>Slime 1 Piece</h3>
+      <p>₹10.00</p>
+      <button onclick="addToCart('Slime 1 Piece', '₹10.00', 'https://www.prsgiftadda.shop/products/Stationery/IMG_1579.JPG')">Add to Cart</button>
     </div>
+  </div>
 
-    <!-- Cart Sidebar -->
-    <div class="cart-sidebar" id="cart-sidebar">
-        <div class="cart-header">
-            <h3>Your Cart</h3>
-            <button class="close-cart" id="close-cart">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-        <div class="cart-items" id="cart-items">
-            <!-- Cart items will be added here dynamically -->
-            <div class="empty-cart">
-                <i class="fas fa-shopping-cart"></i>
-                <p>Your cart is empty</p>
-            </div>
-        </div>
-        <div class="cart-footer">
-            <div class="cart-total">
-                <span>Total:</span>
-                <span class="total-price">$0.00</span>
-            </div>
-            <button class="checkout-btn">Proceed to Checkout</button>
-        </div>
+  <div id="cart">
+    <h2>Cart</h2>
+    <ul id="cartItems"></ul>
+    <input type="text" id="userPhone" placeholder="Enter your phone number" />
+    <div id="checkout">
+      <button onclick="sendToWhatsApp()">Proceed to Checkout</button>
     </div>
+  </div>
 
+  <script>
+    const cart = [];
 
-    <!-- Products Section -->
-    <section class="products" id="products">
-        <div class="container">
-            <h2 class="section-title">Our Products</h2>
-            <div class="product-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="gifts">Gifts</button>
-                <button class="filter-btn" data-filter="stationery">Stationery</button>
-                 <button class="filter-btn" data-filter="brithday">brithday</button>
-            </div>
-            <div class="product-grid" id="product-grid">
-                <!-- Products will be added here dynamically -->
-            </div>
-        </div>
-    </section>
+    function addToCart(name, price, image) {
+      cart.push({ name, price, image });
+      updateCartDisplay();
+    }
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">About PRS Gift Adda</h2>
-                    <p>Founded in 2025, PRS Gifts Adda has been providing beautiful gift and Stationery items to customers. Our mission is to combine functionality with aesthetic appeal in every product we offer.</p>
-                    <p>All our products are sourced from ethical suppliers and crafted with attention to detail. We believe that the right stationery can inspire creativity, and the perfect gift can create lasting memories.</p>
-                    <a href="#contact" class="btn btn-outline">Contact Us</a>
-                </div>
-                <div class="about-image">
-                    <img src="products/ToysSmall.jpg" alt="Office workspace with stationery">
-                </div>
-            </div>
-        </div>
-    </section>
+    function updateCartDisplay() {
+      const cartItems = document.getElementById('cartItems');
+      cartItems.innerHTML = '';
+      cart.forEach((item, index) => {
+        const li = document.createElement('li');
+        li.textContent = `${index + 1}. ${item.name} - ${item.price}`;
+        cartItems.appendChild(li);
+      });
+    }
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Escon Tower 1 ,Shop No-06, Sector 16c,near 14th Avenue Gour City-2,Greater Noida West.</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <p>(+91) 9654066919</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>prsgiftadda@gmail.com</p>
-                    </div>
-                    <div class="contact-social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
+    function sendToWhatsApp() {
+      const phoneInput = document.getElementById('userPhone').value.trim();
+      if (!phoneInput) {
+        alert('Please enter your phone number.');
+        return;
+      }
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <div class="logo">
-                        <a href="#">
-                            <i class="fas fa-gift logo-icon"></i>
-                            <span style="font-size: 30px;"><span style="color:#3898ec;">PRS</span> <span style="color: maroon;">Gift</span> <span style="color: rgb(152, 152, 8);">Adda</span></span>
-                        </a>
-                    </div>
-                    <p>Premium gifts and stationery for all occasions. Quality products for your home and office.</p>
-                </div>
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Customer Service</h3>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Returns & Exchanges</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe to get updates on new arrivals and special offers.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your Email" required>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 PRS Gift Adda. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+      let message = `🛒 New Order from PRS Gift Adda:\n`;
+      cart.forEach((item, index) => {
+        message += `\n${index + 1}. ${item.name}\nPrice: ${item.price}\nImage: ${item.image}\n`;
+      });
+      message += `\n📞 Phone: ${phoneInput}`;
 
-    <script src="script.js"></script>
+      const encodedMessage = encodeURIComponent(message);
+      const yourNumber = "9654066919"; // Replace with your WhatsApp number
+      const whatsappURL = `https://wa.me/${yourNumber}?text=${encodedMessage}`;
+
+      window.open(whatsappURL, '_blank');
+    }
+  </script>
+
 </body>
 </html>
