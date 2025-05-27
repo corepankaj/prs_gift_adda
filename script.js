@@ -133,231 +133,231 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 17,
             title: 'Pencil Box Case',
             price: 220,
-            image: 'products/Stationery/IMG_1550.jpg',
+            image: 'products/Stationery/IMG_1550.JPG',
             category: 'gifts'
         },
         {
             id: 18,
             title: 'Pencil Box Case',
             price: 220,
-            image: 'products/Stationery/IMG_1551.jpg',
+            image: 'products/Stationery/IMG_1551.JPG',
             category: 'gifts'
         },
         {
             id: 19,
             title: 'Pencil Box Case',
             price: 220,
-            image: 'products/Stationery/IMG_1553.jpg',
+            image: 'products/Stationery/IMG_1553.JPG',
             category: 'gifts'
         },
         {
             id: 20,
             title: 'Pencil Box Case',
             price: 220,
-            image: 'products/Stationery/IMG_1555.jpg',
+            image: 'products/Stationery/IMG_1555.JPG',
             category: 'gifts'
         },
         {
             id: 20,
             title: 'Pencil Box Case',
             price: 220,
-            image: 'products/Stationery/IMG_1556.jpg',
+            image: 'products/Stationery/IMG_1556.JPG',
             category: 'gifts'
         },
         {
             id: 20,
             title: 'Pencil Box Case',
             price: 220,
-            image: 'products/Stationery/IMG_1557.jpg',
+            image: 'products/Stationery/IMG_1557.JPG',
             category: 'gifts'
         },
         {
             id: 21,
             title: 'Tube Slime',
             price: 40,
-            image: 'products/Stationery/IMG_E1518.jpg',
+            image: 'products/Stationery/IMG_E1518.JPG',
             category: 'stationery'
         },
         {
             id: 22,
             title: '',
             price: 40,
-            image: 'products/Stationery/IMG_1525.jpg',
+            image: 'products/Stationery/IMG_1525.JPG',
             category: 'stationery'
         },
         {
             id: 23,
             title: 'Pen',
             price: 40,
-            image: 'products/Stationery/IMG_1532.jpg',
+            image: 'products/Stationery/IMG_1532.JPG',
             category: 'stationery'
         },
         {
             id: 24,
             title: 'Pen',
             price: 20,
-            image: 'products/Stationery/IMG_1531.jpg',
+            image: 'products/Stationery/IMG_1531.JPG',
             category: 'stationery'
         },
         {
             id: 25,
             title: 'Pen 1 pice',
             price: 20,
-            image: 'products/Stationery/IMG_1535.jpg',
+            image: 'products/Stationery/IMG_1535.JPG',
             category: 'stationery'
         },
         {
             id: 26,
             title: 'Pen 1 pice',
             price: 20,
-            image: 'products/Stationery/IMG_1536.jpg',
+            image: 'products/Stationery/IMG_1536.JPG',
             category: 'stationery'
         },
         {
             id: 27,
             title: 'Pen 1 pice',
             price: 20,
-            image: 'products/Stationery/IMG_1537.jpg',
+            image: 'products/Stationery/IMG_1537.JPG',
             category: 'stationery'
         },
         {
             id: 28,
             title: 'Pen 1 pice',
             price: 20,
-            image: 'products/Stationery/IMG_1542.jpg',
+            image: 'products/Stationery/IMG_1542.JPG',
             category: 'stationery'
         },
         {
             id: 29,
             title: 'Eraser 1 pice',
             price: 20,
-            image: 'products/Stationery/IMG_1543.jpg',
+            image: 'products/Stationery/IMG_1543.JPG',
             category: 'stationery'
         },
         {
             id: 30,
             title: 'Clay 1 pice',
             price: 40,
-            image: 'products/Stationery/IMG_1547.jpg',
+            image: 'products/Stationery/IMG_1547.JPG',
             category: 'stationery'
         },
         {
             id: 30,
             title: 'Box 1 pice',
             price: 80,
-            image: 'products/Stationery/IMG_1549.jpg',
+            image: 'products/Stationery/IMG_1549.JPG',
             category: 'stationery'
         },
         {
             id: 31,
             title: 'Box',
             price: 90,
-            image: 'products/Stationery/IMG_1562.jpg',
+            image: 'products/Stationery/IMG_1562.JPG',
             category: 'stationery'
         },
         {
             id: 32,
             title: 'Box',
             price: 90,
-            image: 'products/Stationery/IMG_1563.jpg',
+            image: 'products/Stationery/IMG_1563.JPG',
             category: 'stationery'
         },
         {
             id: 33,
             title: 'Box',
             price: 90,
-            image: 'products/Stationery/IMG_1564.jpg',
+            image: 'products/Stationery/IMG_1564.JPG',
             category: 'stationery'
         },
         {
             id: 34,
             title: 'Box',
             price: 90,
-            image: 'products/Stationery/IMG_1565.jpg',
+            image: 'products/Stationery/IMG_1565.JPG',
             category: 'stationery'
         },
         {
             id: 35,
             title: 'Box',
             price: 90,
-            image: 'products/Stationery/IMG_1566.jpg',
+            image: 'products/Stationery/IMG_1566.JPG',
             category: 'stationery'
         },
         {
             id: 36,
             title: '',
             price: 80,
-            image: 'products/Stationery/IMG_1572.jpg',
+            image: 'products/Stationery/IMG_1572.JPG',
             category: 'stationery'
         },
         {
             id: 37,
             title: '',
             price: 80,
-            image: 'products/Stationery/IMG_1573.jpg',
+            image: 'products/Stationery/IMG_1573.JPG',
             category: 'stationery'
         },
         {
             id: 38,
             title: '',
             price: 80,
-            image: 'products/Stationery/IMG_1574.jpg',
+            image: 'products/Stationery/IMG_1574.JPG',
             category: 'stationery'
         },
         {
             id: 39,
             title: 'Bubble Stick',
             price: 20,
-            image: 'products/Stationery/IMG_1576.jpg',
+            image: 'products/Stationery/IMG_1576.JPG',
             category: 'stationery'
         },
         {
             id: 40,
             title: 'Slime 1 pice',
             price: 10,
-            image: 'products/Stationery/IMG_1577.jpg',
+            image: 'products/Stationery/IMG_1577.JPG',
             category: 'stationery'
         },
         {
             id: 41,
             title: 'Slime 1 pice',
             price: 5,
-            image: 'products/Stationery/IMG_1578.jpg',
+            image: 'products/Stationery/IMG_1578.JPG',
             category: 'stationery'
         },
         {
             id: 42,
             title: 'Slime 1 pice',
             price: 20,
-            image: 'products/Stationery/IMG_1579.jpg',
+            image: 'products/Stationery/IMG_1579.JPG',
             category: 'stationery'
         },
         {
             id: 43,
             title: 'Eraser 1 pice',
             price: 10,
-            image: 'products/Stationery/IMG_1583.jpg',
+            image: 'products/Stationery/IMG_1583.JPG',
             category: 'stationery'
         },
         {
             id: 44,
             title: 'Eraser 1 pice',
             price: 10,
-            image: 'products/Stationery/IMG_1584.jpg',
+            image: 'products/Stationery/IMG_1584.JPG',
             category: 'stationery'
         },
         {
             id: 45,
             title: '',
             price: 35,
-            image: 'products/Gift/IMG_1509.jpg',
+            image: 'products/Gift/IMG_1509.JPG',
             category: 'gifts'
         },
         {
             id: 46,
             title: '',
             price: 20,
-            image: 'products/Gift/IMG_1510.jpg',
+            image: 'products/Gift/IMG_1510.JPG',
             category: 'gifts'
         },
         {
@@ -385,56 +385,56 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 50,
             title: '',
             price: 500,
-            image: 'products/Gift/IMG_1515.jpg',
+            image: 'products/Gift/IMG_1515.JPG',
             category: 'gifts'
         },
         {
             id: 51,
             title: '',
             price: 30,
-            image: 'products/Gift/IMG_1520.jpg',
+            image: 'products/Gift/IMG_1520.JPG',
             category: 'gifts'
         },
         {
             id: 52,
             title: '',
             price: 50,
-            image: 'products/Gift/IMG_1522.jpg',
+            image: 'products/Gift/IMG_1522.JPG',
             category: 'gifts'
         },
         {
             id: 53,
             title: '',
             price: 50,
-            image: 'products/Gift/IMG_1523.jpg',
+            image: 'products/Gift/IMG_1523.JPG',
             category: 'gifts'
         },
         {
             id: 54,
             title: 'Talking Cat',
             price: 220,
-            image: 'products/Gift/IMG_1526.jpg',
+            image: 'products/Gift/IMG_1526.JPG',
             category: 'gifts'
         },
         {
             id: 55,
             title: '',
             price: 40,
-            image: 'products/Gift/IMG_1527.jpg',
+            image: 'products/Gift/IMG_1527.JPG',
             category: 'gifts'
         },
         {
             id: 56,
             title: '',
             price: 200,
-            image: 'products/Gift/IMG_1528.jpg',
+            image: 'products/Gift/IMG_1528.JPG',
             category: 'gifts'
         },
         {
             id: 57,
             title: 'Watch 1 pice',
             price: 40,
-            image: 'products/Gift/IMG_1559.jpg',
+            image: 'products/Gift/IMG_1559.JPG',
             category: 'gifts'
         },
         {
@@ -448,105 +448,105 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 59,
             title: 'Watch 1 pice',
             price: 100,
-            image: 'products/Gift/IMG_1561.jpg',
+            image: 'products/Gift/IMG_1561.JPG',
             category: 'gifts'
         },
         {
             id: 60,
             title: '1 pice',
             price: 30,
-            image: 'products/Gift/IMG_1567.jpg',
+            image: 'products/Gift/IMG_1567.JPG',
             category: 'gifts'
         },
         {
             id: 61,
             title: '',
             price: 170,
-            image: 'products/Gift/IMG_1570.jpg',
+            image: 'products/Gift/IMG_1570.JPG',
             category: 'gifts'
         },
         {
             id: 62,
             title: '',
             price: 170,
-            image: 'products/Gift/IMG_1600.jpg',
+            image: 'products/Gift/IMG_1600.JPG',
             category: 'gifts'
         },
         {
             id: 63,
             title: '',
             price: 45,
-            image: 'products/Gift/IMG_1601.jpg',
+            image: 'products/Gift/IMG_1601.JPG',
             category: 'gifts'
         },
         {
             id: 64,
             title: '',
             price: 45,
-            image: 'products/Gift/IMG_1602.jpg',
+            image: 'products/Gift/IMG_1602.JPG',
             category: 'gifts'
         },
         {
             id: 65,
             title: '',
             price: 170,
-            image: 'products/Gift/IMG_1603.jpg',
+            image: 'products/Gift/IMG_1603.JPG',
             category: 'gifts'
         },
         {
             id: 66,
             title: '',
             price: 60,
-            image: 'products/Gift/IMG_1605.jpg',
+            image: 'products/Gift/IMG_1605.JPG',
             category: 'gifts'
         },
         {
             id: 67,
             title: '',
             price: 60,
-            image: 'products/Gift/IMG_1606.jpg',
+            image: 'products/Gift/IMG_1606.JPG',
             category: 'gifts'
         },
         {
             id: 68,
             title: '',
             price: 45,
-            image: 'products/Gift/IMG_1607.jpg',
+            image: 'products/Gift/IMG_1607.JPG',
             category: 'gifts'
         },
         {
             id: 69,
             title: '',
             price: 40,
-            image: 'products/Gift/IMG_E1538.jpg',
+            image: 'products/Gift/IMG_E1538.JPG',
             category: 'gifts'
         },
         {
             id: 70,
             title: '',
             price: 460,
-            image: 'products/Gift/IMG_E1541.jpg',
+            image: 'products/Gift/IMG_E1541.JPG',
             category: 'gifts'
         },
         {
             id: 71,
             title: '',
             price: 400,
-            image: 'products/Gift/IMG_E1546.jpg',
+            image: 'products/Gift/IMG_E1546.JPG',
             category: 'gifts'
         },
         {
             id: 72,
             title: '',
             price: 320,
-            image: 'products/Gift/IMG_E1545.jpg',
+            image: 'products/Gift/IMG_E1545.JPG',
             category: 'gifts'
         },
         {
             id: 73,
             title: 'Box 1 pice',
             price: 80,
-            image: 'products/Gift/IMG_E1549.jpg',
+            image: 'products/Gift/IMG_E1549.JPG',
             category: 'gifts'
         },
         {
