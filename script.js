@@ -560,21 +560,21 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 75,
             title: 'Birthday Gift',
             price: 70,
-            image: 'products/brithday/IMG_1580.jpg',
+            image: 'products/brithday/IMG_1580.JPG',
             category: 'brithday'
         },
         {
             id: 75,
             title: 'Birthday Gift',
             price: 160,
-            image: 'products/brithday/IMG_E1539.jpg',
+            image: 'products/brithday/IMG_E1539.JPG',
             category: 'brithday'
         },
         {
             id: 75,
             title: 'Birthday Gift',
             price: 30,
-            image: 'products/brithday/IMG_1581.jpg',
+            image: 'products/brithday/IMG_1581.JPG',
             category: 'brithday'
         }
         
