@@ -779,7 +779,7 @@ document.addEventListener('DOMContentLoaded', function() {
     init();
 
 document.getElementById('checkoutButton').addEventListener('click', function () {
-    const phone = document.getElementById('userPhone').value.trim();
+   /* const phone = document.getElementById('userPhone').value.trim();
     if (!phone) {
         alert('Please enter your phone number.');
         return;
@@ -790,8 +790,8 @@ document.getElementById('checkoutButton').addEventListener('click', function () 
         return;
     }
 
-    let message = `📦 *New Order from PRS Gift Adda*%0A`;
-    message += `📞 Phone: ${phone}%0A`;
+    let message = `📦 *New Order for PRS Gift Adda*%0A`;
+    message += `📞 Custumer Phone No: ${phone}%0A`;
     message += `🛒 *Cart Details:*%0A`;
 
 
@@ -809,7 +809,43 @@ document.getElementById('checkoutButton').addEventListener('click', function () 
     const shopNumber = '919654066919';
 
     const whatsappUrl = `https://wa.me/${shopNumber}?text=${message}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, '_blank');*/
+
+
+    const phone = document.getElementById('userPhone').value.trim();
+if (!phone) {
+    alert('Please enter your phone number.');
+    return;
+}
+
+if (cart.length === 0) {
+    alert('Your cart is empty.');
+    return;
+}
+
+let message = `📦 *New Order for PRS Gift Adda*%0A`;
+message += `📞 Customer Phone No: ${phone}%0A`;
+message += `🛒 *Cart Details:*%0A`;
+
+cart.forEach(item => {
+    message += `• ${item.title} - ₹${item.price} x ${item.quantity} = ₹${item.price * item.quantity}%0A`;
+    message += `📷 View Image: ${encodeURIComponent(item.image)}%0A`;
+});
+
+const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+message += `➕ Total: ₹${total.toFixed(2)}%0A%0A`;
+
+message += `🚚 *Note:* Delivery only in Gour City2 with a minimum order of ₹500.%0A`;
+
+const shopNumber = '919654066919';
+const whatsappUrl = `https://wa.me/${shopNumber}?text=${message}`;
+window.open(whatsappUrl, '_blank');
+
+// Send thank-you message to customer
+const thankYouMessage = `🙏 Thank you for shopping from PRS Gift Adda! Your order has been received. We’ll contact you shortly.`;
+const customerWhatsappUrl = `https://wa.me/91${phone}?text=${encodeURIComponent(thankYouMessage)}`;
+window.open(customerWhatsappUrl, '_blank');
+
 });
 
     
