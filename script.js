@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 58,
             title: 'Watch 1 pice',
             price: 60,
-            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1560.jpg',
+            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1560.JPG',
             category: 'gifts'
         },
         {
