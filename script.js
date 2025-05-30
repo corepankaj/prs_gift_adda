@@ -365,21 +365,21 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 47,
             title: '',
             price: 20,
-            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1511.jpg',
+            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1511.JPG',
             category: 'gifts'
         },
         {
             id: 48,
             title: '',
             price: 60,
-            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1512.jpg',
+            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1512.JPG',
             category: 'gifts'
         },
         {
             id: 49,
             title: '',
             price: 80,
-            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1516.jpg',
+            image: 'https://www.prsgiftadda.shop/products/Gift/IMG_1516.JPG',
             category: 'gifts'
         },
         {
