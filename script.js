@@ -582,7 +582,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 75,
             title: 'Toys',
             price: 800,
-            image: 'https://www.prsgiftadda.shop/products/Toys/1.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/img1.JPG',
             category: 'Toys'
         },
         {
