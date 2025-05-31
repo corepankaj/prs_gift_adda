@@ -582,28 +582,28 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 75,
             title: 'Toys',
             price: 800,
-            image: 'https://www.prsgiftadda.shop/products/Toys/img1.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/img1.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 600,
-            image: 'https://www.prsgiftadda.shop/products/Toys/2.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/2.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 449,
-            image: 'https://www.prsgiftadda.shop/products/Toys/3.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/3.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 350,
-            image: 'https://www.prsgiftadda.shop/products/Toys/4.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/4.jpg',
             category: 'Toys'
         },
         {
