@@ -610,175 +610,175 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 75,
             title: 'Toys',
             price: 549,
-            image: 'https://www.prsgiftadda.shop/products/Toys/5.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/5.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 400,
-            image: 'https://www.prsgiftadda.shop/products/Toys/6.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/6.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 750,
-            image: 'https://www.prsgiftadda.shop/products/Toys/7.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/7.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 550,
-            image: 'https://www.prsgiftadda.shop/products/Toys/8.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/8.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 800,
-            image: 'https://www.prsgiftadda.shop/products/Toys/9.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/9.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 550,
-            image: 'https://www.prsgiftadda.shop/products/Toys/10.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/10.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 1500,
-            image: 'https://www.prsgiftadda.shop/products/Toys/11.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/11.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 950,
-            image: 'https://www.prsgiftadda.shop/products/Toys/12.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/12.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 800,
-            image: 'https://www.prsgiftadda.shop/products/Toys/13.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/13.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 999,
-            image: 'https://www.prsgiftadda.shop/products/Toys/14.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/14.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 799,
-            image: 'https://www.prsgiftadda.shop/products/Toys/15.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/15.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 499,
-            image: 'https://www.prsgiftadda.shop/products/Toys/16.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/16.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 1139,
-            image: 'https://www.prsgiftadda.shop/products/Toys/17.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/17.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 750,
-            image: 'https://www.prsgiftadda.shop/products/Toys/18.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/18.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 599,
-            image: 'https://www.prsgiftadda.shop/products/Toys/19.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/19.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 599,
-            image: 'https://www.prsgiftadda.shop/products/Toys/20.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/20.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 860,
-            image: 'https://www.prsgiftadda.shop/products/Toys/21.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/21.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 650,
-            image: 'https://www.prsgiftadda.shop/products/Toys/22.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/22.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 1739,
-            image: 'https://www.prsgiftadda.shop/products/Toys/23.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/23.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 910,
-            image: 'https://www.prsgiftadda.shop/products/Toys/24.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/24.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 595,
-            image: 'https://www.prsgiftadda.shop/products/Toys/25.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/25.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 595,
-            image: 'https://www.prsgiftadda.shop/products/Toys/26.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/26.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 799,
-            image: 'https://www.prsgiftadda.shop/products/Toys/27.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/27.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 1050,
-            image: 'https://www.prsgiftadda.shop/products/Toys/28.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/28.jpg',
             category: 'Toys'
         },
         {
             id: 75,
             title: 'Toys',
             price: 1000,
-            image: 'https://www.prsgiftadda.shop/products/Toys/29.JPG',
+            image: 'https://www.prsgiftadda.shop/products/Toys/29.jpg',
             category: 'Toys'
         }
     ];
