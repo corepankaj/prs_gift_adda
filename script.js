@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 71,
-            title: 'Water Bottle',
+            title: 'Car Water Cup',
             price: 400,
             image: 'https://www.prsgiftadda.shop/products/Gift/IMG_E1546.JPG',
             category: 'Toys'
