@@ -1039,7 +1039,7 @@ cart.forEach(item => {
 const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 message += `➕ Total: ₹${total.toFixed(2)}%0A%0A`;
 
-message += `🚚 *Note:* Delivery only in Gour City2 with a minimum order of ₹500.%0A`;
+message += `🚚 *Note:* Delivery only in Gour City2 with a minimum order of ₹250.%0A Mobile -9654066919`;
 
 const shopNumber = '919654066919';
 const whatsappUrl = `https://wa.me/${shopNumber}?text=${message}`;
